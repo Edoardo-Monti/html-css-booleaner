@@ -52,3 +52,20 @@ li{
     margin-left: -1em;
    
 }
+
+table{
+    border-spacing: 0;
+}
+
+thead{
+    text-align: center;
+    background-color: rgb(53, 119, 170);
+}
+
+.t-centre{
+    width: 25%;
+}
+
+.t-color{
+    background-color: lightblue;
+}
