@@ -1,19 +1,25 @@
+/* header */
+*{
+    margin: 0;
+}
+
 header{
-    margin:0;
+    margin: 0%;
 }
 
 .logo{
     background-image:url('../Assets/img/pattern.png');
     background-repeat: repeat;
     background-size: 10%;
-    background-color: rgb(30, 34, 219);   
+    background-color: rgb(30, 34, 219);
     padding-top: 20px;
     padding-left: 10%;
-    
+
 }
 
+/* main */
 main{
-    margin: auto; 
+    margin: auto;
     max-width: 80%;
     text-align: left;
 }
@@ -35,6 +41,7 @@ h1{
 #date{
     font-size: 11px;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 
 .description{
@@ -43,18 +50,20 @@ h1{
     font-size: 10px;
 }
 
-#text{
+.text{
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 li{
     margin-left: -1em;
-   
+
 }
 
+/* css della tabella */
 table{
     border-spacing: 0;
+    margin-top: 20px;
 }
 
 thead{
@@ -68,4 +77,34 @@ thead{
 
 .t-color{
     background-color: lightblue;
+}
+
+/* footer */
+
+footer{
+    margin: auto;
+    max-width: 80%;
+    text-align: left;
+
+}
+
+#other{
+    color: gray;
+}
+
+.lorem1{
+    color: white;
+    background-image:url(../Assets/img/monitor.jpg);
+    background-repeat: no-repeat;
+    min-height: 150px;
+    background-size: 20%;
+    margin-bottom: 10px;
+}
+
+.lorem2{
+    color: white;
+    background-image:url(../Assets/img/graph.jpg);
+    background-repeat: no-repeat;
+    min-height: 150px;
+    background-size: 20%;
 }
