@@ -3,9 +3,6 @@
     margin: 0;
 }
 
-header{
-    margin: 0%;
-}
 
 .logo{
     background-image:url('../Assets/img/pattern.png');
@@ -67,11 +64,11 @@ table{
 }
 
 thead{
-    text-align: center;
+    color: white;
     background-color: rgb(53, 119, 170);
 }
 
-.t-centre{
+.t-centre{                                           
     width: 25%;
 }
 
